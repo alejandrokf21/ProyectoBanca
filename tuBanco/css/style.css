@@ -1,0 +1,68 @@
+/* ================== Balance Card ====================== */
+.card {
+  width: 200px;
+  height: 280px;
+  background: rgb(40, 40, 55);
+  background: linear-gradient(
+    344deg,
+    rgb(250, 247, 246) 20%,
+    rgb(237, 237, 237) 50%
+  );
+  box-shadow: 4px 6px 14px #00000036;
+  border-radius: 12px;
+  color: #f9f9f9;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+.card .info {
+  text-align: center;
+  margin-top: 0.4em;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 194, 255, 1) 0%,
+    rgba(0, 86, 255, 1) 100%
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card .info > span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.card a {
+  margin-top: 1em;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 194, 255, 1) 0%,
+    rgba(0, 86, 255, 1) 100%
+  );
+  padding: 0.5em 2em;
+  border-radius: 0.7em;
+  text-align: center;
+}
+
+.card a:active {
+  box-shadow: inset 3px 3px 3px #0056ff, inset -3px -3px 3px #00c2ff;
+}
+
+.card:hover {
+  margin-top: -20px;
+}
+/* ====================================================== */
+h1 {
+  font-weight: bold;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 194, 255, 1) 0%,
+    rgba(0, 86, 255, 1) 100%
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
